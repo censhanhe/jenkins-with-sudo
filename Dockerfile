@@ -1,5 +1,5 @@
 FROM jenkins
-COPY executors.groovy /usr/share/jenkins/ref/init.groovy.d/executors.groovy
+#COPY executors.groovy /usr/share/jenkins/ref/init.groovy.d/executors.groovy
 
 USER root
 RUN apt-get update \
